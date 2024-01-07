@@ -6,16 +6,15 @@
 /* bnner section style */
 .banner {
     border-radius: 16px;
-    background:  linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("/resources/Banner\ Image.png");
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/Banner\ Image.png");
     background-repeat: no-repeat;
     background-position: center;
     min-height: 600px;
-    /* max-width: 1320px; */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 50px 100px 0 100px;
+    margin: 50px 70px 0 70px;
     border-radius: 16px;
 }
 
@@ -80,7 +79,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("../resources/Vectorrr.png");
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 16px;
@@ -91,9 +90,10 @@
 
 .party-contener {
     padding-left: 120px;
-    
+
 }
-.party-img{
+
+.party-img {
     padding-right: 120px;
 }
 
@@ -117,10 +117,40 @@
 }
 
 .btn-party {
-    
+
     background-color: #F00;
     color: #FFF;
     padding: 16px 32px;
     border: 0;
     border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* date section style */
+.party-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 120px 70px;
+}
+
+.date-contener {
+    text-align: center;
+}
+
+.date-desc {
+    color: #070211;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.date-name {
+    color: #F00;
 }
