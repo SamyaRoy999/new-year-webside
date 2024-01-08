@@ -154,3 +154,104 @@
 .date-name {
     color: #F00;
 }
+
+/* selibration-offer section */
+.selibration-offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 70px 120px 70px;
+    gap: 70px;
+}
+
+.bast-offer .offer-grading {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.bast-offer .offer-title {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+.bast-offer .offer-desc {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+}
+
+.offer-img {
+    border-radius: 50%;
+    border: 15px solid #F00;
+    padding: 40px;
+}
+
+
+.selibration-year {
+    color: #F00;
+    font-family: 'Inter', sans-serif; 
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.selibration-desc {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 16px;
+}
+
+/* sale-ditals style */
+.sale-ditals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sale-contener {
+    text-align: center;
+    max-width: 1000px;
+
+}
+
+.sale-graddig {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.sale-title {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0;
+    
+}
+.sale-name {
+    color: #F00;
+    font-family: 'Merriweather', serif;
+}
+.sale-desc{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; 
+    margin: 28px;
+   
+}
