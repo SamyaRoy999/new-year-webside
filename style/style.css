@@ -9,6 +9,7 @@
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner\ Image.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 1355px 600px;
     min-height: 600px;
     display: flex;
     justify-content: center;
@@ -82,6 +83,7 @@
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 1355px 600px;
     border-radius: 16px;
     /* padding: 120px; */
     margin: 0 70px;
@@ -198,7 +200,7 @@
 
 .selibration-year {
     color: #F00;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: 700;
     margin: 0;
@@ -214,11 +216,12 @@
 }
 
 /* sale-ditals style */
-.sale-ditals{
+.sale-ditals {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .sale-contener {
     text-align: center;
     max-width: 1000px;
@@ -239,19 +242,62 @@
     font-size: 72px;
     font-weight: 900;
     margin: 0;
-    
+
 }
+
 .sale-name {
     color: #F00;
     font-family: 'Merriweather', serif;
 }
-.sale-desc{
+
+.sale-desc {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 500;
-    line-height: 32px; 
+    line-height: 32px;
     margin: 28px;
-   
+
+}
+
+/* discount section */
+.discount {
+    margin: 0 85px;
+    position: relative;
+}
+
+.top-imges-contener {
+    text-align: right;
+    
+    
+}
+
+.top-imges-contener .discount-img {
+    
+    position: absolute;
+    right: 280px;
+    top: 60px;
+    
+}
+
+.top-imges-contener .shoping-img {
+    
+}
+
+.button-imges-contener{
+    position: absolute;
+    top: -234px;
+    text-align: center;
+}
+.gft-box{
+    position: relative;
+    top: 240px;
+    right: 240px;
+    z-index: 1;
+    
+}
+.emty-img{
+   position: relative;
+  
 }
