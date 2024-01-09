@@ -265,39 +265,85 @@
 .discount {
     margin: 0 85px;
     position: relative;
+    height: 663px;
 }
 
 .top-imges-contener {
     text-align: right;
-    
-    
+
+
 }
 
 .top-imges-contener .discount-img {
-    
+
     position: absolute;
     right: 280px;
     top: 60px;
-    
+
 }
 
-.top-imges-contener .shoping-img {
-    
-}
+.top-imges-contener .shoping-img {}
 
-.button-imges-contener{
+.button-imges-contener {
     position: absolute;
     top: -234px;
     text-align: center;
 }
-.gft-box{
+
+.gft-box {
     position: relative;
     top: 240px;
     right: 240px;
     z-index: 1;
+
+}
+
+.emty-img {
+    /* position: relative; */
+
+}
+
+/* portfolio-contener style */
+.portfolio-contener {
+    margin: 120px 80px 0 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-grading {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.portfolio-heading {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    margin-top: 16px;
+    padding-left: 10px;
+}
+
+.portfolio-desc {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 900px;
+    padding-left: 10px;
+}
+
+.image-table{
+    display: flex;
+    justify-content: center;
+    /* border-spacing: 30px; */
     
 }
-.emty-img{
-   position: relative;
-  
+td{
+    padding: 15px;
 }
